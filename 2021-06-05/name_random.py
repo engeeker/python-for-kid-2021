@@ -12,6 +12,7 @@ state_num = 0
 global name
 
 name_list = ['A', 'B', 'C', 'D', 'E']
+name = random.choice(name_list)
 
 
 def advance_state_machine():
